@@ -1,8 +1,6 @@
-import { MaybePromise } from "src/types";
 import { map } from ".";
 
-const multiply2 = (number: MaybePromise<number>) =>
-  number instanceof Promise ? number.then((x) => x * 2) : number * 2;
+const multiply2 = (number: number) => number * 2;
 
 const syncTestValue = [0, 1, 2, 3, 4];
 
