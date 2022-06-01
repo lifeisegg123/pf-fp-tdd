@@ -1,8 +1,7 @@
 import { MaybePromise } from "src/types";
 import { filter } from ".";
 
-const underTwo = (number: MaybePromise<number>) =>
-  number instanceof Promise ? number.then((x) => x < 2) : number < 2;
+const underTwo = (number: number) => number < 2;
 
 const syncTestValue = [0, 1, 2, 3, 4];
 
@@ -57,7 +56,7 @@ describe("fp/filter", () => {
 
     it("should be run concurrently", async () => {
       const testFunction = (value: number) => {
-        return new Promise((resolve) => {
+        return new Promise<boolean>((resolve) => {
           setTimeout(() => {
             resolve(underTwo(value));
           }, 500);
