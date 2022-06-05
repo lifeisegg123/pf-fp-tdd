@@ -1,4 +1,3 @@
-import { MaybePromise } from "src/types";
 import { filter } from ".";
 
 const underTwo = (number: number) => number < 2;
