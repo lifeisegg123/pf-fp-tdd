@@ -1,10 +1,6 @@
+import { Todo } from "src/interfaces";
 import { TodoItem } from "../TodoItem";
 
-interface Todo {
-  id: string;
-  desc: string;
-  checked: boolean;
-}
 interface TodoListProps {
   todos: Todo[];
   onCheck: (id: string) => () => void;
