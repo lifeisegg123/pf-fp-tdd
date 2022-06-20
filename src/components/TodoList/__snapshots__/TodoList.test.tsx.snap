@@ -3,7 +3,9 @@
 exports[`Component/TodoList should match snapshot 1`] = `
 <div>
   <ul>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>
@@ -16,7 +18,9 @@ exports[`Component/TodoList should match snapshot 1`] = `
         X
       </button>
     </li>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>
@@ -29,7 +33,9 @@ exports[`Component/TodoList should match snapshot 1`] = `
         X
       </button>
     </li>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>
@@ -42,7 +48,9 @@ exports[`Component/TodoList should match snapshot 1`] = `
         X
       </button>
     </li>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>
@@ -55,7 +63,9 @@ exports[`Component/TodoList should match snapshot 1`] = `
         X
       </button>
     </li>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>
@@ -68,7 +78,9 @@ exports[`Component/TodoList should match snapshot 1`] = `
         X
       </button>
     </li>
-    <li>
+    <li
+      class="flex-row-center gap-sm"
+    >
       <span>
         todo
       </span>

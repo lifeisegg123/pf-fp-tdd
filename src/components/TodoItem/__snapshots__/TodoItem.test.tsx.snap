@@ -2,7 +2,9 @@
 
 exports[`Component/TodoItem should match snapshot 1`] = `
 <div>
-  <li>
+  <li
+    class="flex-row-center gap-sm"
+  >
     <span>
       done
     </span>

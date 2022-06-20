@@ -15,7 +15,7 @@ export function TodoItem({ desc, checked, onRemove, onCheck }: TodoItemProps) {
     onRemove(e);
   };
   return (
-    <li onClick={onCheck}>
+    <li className="flex-row-center gap-sm" onClick={onCheck}>
       <span>{checked ? "done" : "todo"}</span>
       <Typo as="h2">{desc}</Typo>
       <Button onClick={handleRemove} aria-label="삭제">
