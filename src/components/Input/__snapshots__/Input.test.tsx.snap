@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/Input should match snapshot 1`] = `
+<div>
+  <input
+    placeholder="mock-input"
+    value=""
+  />
+</div>
+`;

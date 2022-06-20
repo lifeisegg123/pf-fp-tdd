@@ -4,7 +4,7 @@ import { render, fireEvent } from "@testing-library/react";
 describe("Component/Button", () => {
   it("should match snapshot", () => {
     const { container } = render(<Button>test</Button>);
-    expect(container).toBeInTheDocument();
+    expect(container).toMatchSnapshot();
   });
 
   it("should handle click event", () => {

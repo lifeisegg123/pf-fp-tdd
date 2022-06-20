@@ -17,7 +17,7 @@ function MockInput({ disabled }: { disabled?: boolean }) {
 describe("Component/Input", () => {
   it("should match snapshot", () => {
     const { container } = render(<MockInput />);
-    expect(container).toBeInTheDocument();
+    expect(container).toMatchSnapshot();
   });
 
   it("should handle change event", () => {
